@@ -10,7 +10,7 @@ import sqlite3
 # ---------- НАСТРОЙКИ ----------
 BOT_TOKEN = os.getenv("8828259702:AAFIjrdUZYs4czgF1ftrPR6HmqWabCg1RMM")
 DEEPSEEK_API_KEY = os.getenv("sk-61cd3a0e7fe94d6facf2891d15529c44")
-LOGISTICS_CHAT_ID = os.getenv("https://t.me/+-QCLYgJ-UoAyMGEy")  # для уведомлений о дедлайнах
+LOGISTICS_CHAT_ID = os.getenv("1181111312")  # для уведомлений о дедлайнах
 BOT_USERNAME = os.getenv("Logis", "Logisticorganizerbot")  # без @
 
 TARGET_USERNAME = "t3ang1e"  # для шуток
