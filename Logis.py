@@ -8,10 +8,10 @@ from aiogram.filters import Command
 import sqlite3
 
 # ---------- НАСТРОЙКИ ----------
-BOT_TOKEN = "8828259702:AAFIjrdUZYs4czgF1ftrPR6HmqWabCg1RMM"
-DEEPSEEK_API_KEY = os.getenv("sk-61cd3a0e7fe94d6facf2891d15529c44")
-LOGISTICS_CHAT_ID = os.getenv("1181111312")  # для уведомлений о дедлайнах
-BOT_USERNAME = os.getenv("Logis", "Logisticorganizerbot")  # без @
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+BOT_USERNAME = os.getenv("BOT_USERNAME")
+LOGISTICS_CHAT_ID = os.getenv("LOGISTICS_CHAT_ID")
 
 TARGET_USERNAME = "t3ang1e"  # для шуток
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
